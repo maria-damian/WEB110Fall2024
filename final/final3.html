@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--Maria Damian, Final, 11/26/2024-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" href="styles.css" type="text/css">
+		<title>où | Travel Quiz</title>
+	</head>
+	
+	
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>où</h1>
+			</header>
+				
+			<nav id="homenav">
+				<ul>
+					<li><a href="final1.html">Home</a></li>
+					<li><a href="final2.html">Destinations</a></li>
+					<li><a href="final3.html">Next Stop</a></li>
+					<li><a href="final4.html">Credits</a></li>
+				</ul>
+			</nav>
+				
+			<div id="homehero">
+				<img src="quiz.png" alt="tourist taking picture" class="homehero">
+			</div>
+				
+			<main>
+				<div id="travelquiz">	
+					<h5>The où Travel Quiz</h5>
+					<div id="travelquizcontents">
+						<form name="travelquiz" method="post" id="travelquiz" action="demo.php">
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" placeholder="What should I call you?">
+						<br><br>
+							<label for="email">Email</label>
+							<input type="text" id="email" name="email" placeholder="Where should I reply?">
+						<br><br>
+							<label for="date">What is your ideal fly out day?</label>
+							<input type="date" id="date" name="date">
+						<br><br>
+							<label for="weather">On a perfect day, what is the weather like outside?</label>
+							<input type="radio" name="Option" id="Option" value="Option 4">Brisk and Windy.<br>
+							<input type="radio" name="Option" id="Option" value="Option 5">Sunny and Bright.<br>
+							<input type="radio" name="Option" id="Option" value="Option 6">Cold and Snowy.<br>
+							<input type="radio" name="Option" id="Option" value="Option 6">Fresh and Cloudy.<br>
+						<br><br>
+							<label for="food">What kind of food would you enjoy having the most?</label>
+							<select size="1" name="food" id="food">
+							<option value="steak">Steak, Lobster, Shrimp, Salmon.</option>
+							<option value="takeout">Chinese, Burgers, Hot Dogs, Pizza.</option>
+							<option value="soup">Soups, Sandwiches, Pasta, Casseroles.</option>
+							<option value="salads">Salad, Hummus, Avocado Toast, Bowls.</option>
+							</select>
+						<br><br>
+							<label for="activity">Pick your favorite acitivies from the list below.</label>
+							<label><input type="checkbox" name="physical" id="physcial" value="yes">Let's go hiking!</label><br>
+							<label><input type="checkbox" name="sunbum" id="sunbum" value="yes">I just want to lay in the sun all day.</label><br>
+							<label><input type="checkbox" name="tourist" id="tourist" value="yes">Our day is packed with tourist attractions.</label><br>
+							<label><input type="checkbox" name="teatime" id="teatime" value="yes">Nothing sounds better than a cup of tea on a balcony.</label><br>
+							<label><input type="checkbox" name="shopping" id="shopping" value="yes">Travelling = Shopping Spree!</label><br>
+							<label><input type="checkbox" name="isolation" id="isolation" value="yes">Complete isolation from the world.</label><br>
+							<label><input type="checkbox" name="dancing" id="dancing" value="yes">I come alive in the night time... aka dancing anyone?</label><br>
+							<label><input type="checkbox" name="rollercoasters" id="rollercoasters" value="yes">Rollercoasters are the best type of fun.</label><br>
+							<br>
+							<label for="message">Anything else you want to mention?</label>
+							<textarea id="message" name="message" rows="4" placeholder="What would you like more information on?"></textarea>
+						<br><br>
+							<button type="submit">Submit</button>
+							<button type="reset">Reset</button>
+						</form>
+					</div>
+				</div>
+			</main>
+			
+			<div id="footer">
+				<footer>
+				Copyright &copy; 2024 | où Travel Information Team<br>
+				<a href="mailto:mdamian@stumail.jccc.edu">Email Us</a>
+				</footer>
+			</div>
+		</div>
+	</body>	
+</html>
