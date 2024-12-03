@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--Maria Damian, Final, 11/26/2024-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" href="styles.css" type="text/css">
+		<title>où | Travel Buddy</title>
+	</head>
+	
+	
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>où</h1>
+			</header>
+				
+			<nav id="homenav">
+				<ul>
+					<li><a href="final1.html">Home</a></li>
+					<li><a href="final2.html">Destinations</a></li>
+					<li><a href="final3.html">Next Stop</a></li>
+					<li><a href="final4.html">Credits</a></li>
+				</ul>
+			</nav>
+				
+			<div id="homehero">
+				<img src="plane.png" alt="Nature" class="homehero">
+			</div>
+				
+			<main>
+				<div id="maincontent">
+					<h2>Where will you go next?</h2>
+					<p>At où, we specialize in providing you with the best information for your next trip. We are not a travel agency, but we will provide all the deets you need to be your own agent. From something as simple as when the best time to travel is, to the location of a secret little wine bar in Rome you want to visit. Let us help you make memories! It's urhmm FREE, might I add.</p>
+							
+					<h2>Trending Cities</h2>	
+					<div id="destinations-homepage">
+						<figure class="destination">
+							<img src="rome.png" alt="Leaning Tower of Piza">
+							<figcaption> Rome, Italy</figcaption>
+						</figure>	
+						<figure class="destination">
+							<img src="paris.png" alt="Eiffle Tower sparkling">
+							<figcaption> Paris, France</figcaption>
+						</figure>	
+						<figure class="destination">
+							<img src="tokyo.png" alt="Street with neon lights">
+							<figcaption> Tokyo, Japan</figcaption>
+						</figure>
+					</div>
+							
+					<blockquote id="homepage-quote">
+						<p>"We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures that we can have if only we seek them with our eyes open."</p>
+						<p id="homepage-quote-author">-Jawaharlal Nehru</p>
+					</blockquote>
+					
+					<h2>For All The Ocassions</h2>
+					<div class="ocassions">
+						<section>
+							<h3>Honeymoons</h3>
+							<p>One of the most important trips you will plan in your life is your honeymoon! After planning a wedding for tons of people, we can help you plan something for just you and your partner. We have information about warm beaches in the Carribean or, cold mountains in the Pacific Northwest.</p>
+						</section>	
+						<section>
+							<h3>Birthdays</h3>
+							<p>Celebrate a milestone birthday in a new city. This can be a fun way of inviting your friends on once in a lifetime trip. You only turn 21, 30, 40, etc. once.</p>
+						</section>
+						<section>
+							<h3>Family Vactions</h3>
+							<p>Bring the family together with an annual trip that will engage everyone. There are activities for everyone in each city and with just a bit of information about your family we can reasearch for you.</p>
+						</section>
+						<section>
+							<h3>Career</h3>
+							<p>Work trips don't have to be all work. Take some time to explore your surrounding after a long day of meetings... or you can relax in a one of a kind spa.</p>
+						</section>
+					</div>
+				</div>
+				
+				<div id="contactform">	
+					<h4>Need more information?</h4>
+					<div id="contactformcontents">
+						<form name="contact" method="post" id="sample" action="demo.php">
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" placeholder="What should I call you?">
+						<br><br>
+							<label for="email">Email</label>
+							<input type="text" id="email" name="email" placeholder="Where should I reply?">
+						<br><br>
+							<label for="message">Message</label>
+							<textarea id="message" name="message" rows="4" placeholder="What would you like more information on?"></textarea>
+						<br><br>
+							<button type="submit">Submit</button>
+							<button type="reset">Reset</button>
+						</form>
+					</div>
+				</div>
+			</main>
+			
+			<div id="footer">
+				<footer>
+				Copyright &copy; 2024 | où Travel Information Team<br>
+				<a href="mailto:mdamian@stumail.jccc.edu">Email Us</a>
+				</footer>
+			</div>
+		</div>
+	</body>	
+</html>
